@@ -1,0 +1,56 @@
+h5 {
+  color: #38A3A5;
+  padding-top: 4rem;
+  padding-left: 10rem;
+
+}
+
+#carousels {
+  position: relative;
+}
+
+#carousels:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 98%;
+  opacity: 0.7;
+  background-image: url("/images/bgcarousel.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.title a {
+  color: #00A19D;
+}
+
+.X {
+  color: #316B83;
+}
+
+.content {
+  padding: 10rem;
+  font-size: 2rem;
+  margin-right: 40%;
+  color: white;
+}
+
+#tags {
+  text-align: center;
+}
+
+#tags button {
+  margin: 1rem;
+  width: 8rem;
+  text-align: center;
+}
